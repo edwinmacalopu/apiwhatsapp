@@ -1,0 +1,25 @@
+{
+  "name": "apiwhatsapp",
+  "version": "1.0.0",
+  "description": "api para whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "qr-image": "^3.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
