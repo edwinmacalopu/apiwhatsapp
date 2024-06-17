@@ -16,7 +16,12 @@ const client = new Client({
         remotePath: `https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/${wwebVersion}.html`,
    } ,
     authStrategy: new LocalAuth(),
-    puppeteer: { headless: true }
+    puppeteer: {
+        args: [
+          '--no-sandbox',
+          '--disable-setuid-sandbox'
+        ],  // what ever authStrategy you are using
+    }
 });
 
 // Initialize WhatsApp client
