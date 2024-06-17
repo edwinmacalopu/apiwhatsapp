@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const qrcode = require('qrcode-terminal');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrImage = require('qr-image');
-const wwebVersion = '2.2412.50';
+const wwebVersion = '2.3000.1012058694-alpha';
 // Middleware
 app.use(express.json());
 app.use(morgan('dev'));
